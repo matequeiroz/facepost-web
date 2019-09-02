@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+body {
+  margin: 0;
+  background-color: #ecf0f1;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  background-color: #54a0ff;
+  height: 60px;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+header h2 {
+  color: #fff;
+}
+
+header .my-profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header .my-profile .avatar img {
+  width: 35px;
+  border-radius: 25px;
+}
+
+header .my-profile .avatar {
+  margin-left: 15px;
+}
